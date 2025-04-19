@@ -4,7 +4,7 @@ void main(){
   runApp(
     MaterialApp(
       home: Text(
-        "Hello world"
+        "Hello world - Abu Bakar Istiak (Flutter developer & Competitive Programmer)"
       )
     )
   );

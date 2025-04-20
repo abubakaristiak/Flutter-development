@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
+  int age = 20;
+  String name =  "Abu Bakar Istiak";
+  String position = "Flutter developer & Competitive Programmer";
   runApp(
     MaterialApp(
-      home: Text(
-        "Hello world - Abu Bakar Istiak (Flutter developer & Competitive Programmer)"
-      )
-    )
+      home: Scaffold(
+        body: Center(
+          child: Text(
+            "Hello world - I am $name ($position). I am $age years old.",
+          ),
+        ),
+      ),
+    ),
   );
 }
